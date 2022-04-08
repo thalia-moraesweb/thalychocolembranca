@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - ThalyChocolembranças</title> 
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="limitador">
+           <h1><a href="index.html">ThalyChocolembranças</a></h1>
+           <nav>
+            <!-- O comportamento desse link
+            será feito via JavaScript -->
+               <h2><a href="">Menu &equiv;</a></h2>
+
+            <ul class="links-menu">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="contato.html">Contato</a></li>
+          </ul>
+
+      </nav>
+ </div>
+    </header>
+
+    <main>
+        <article class="conteudo limitador">
+            <article class="contato limitador">
+            <h2>Contato</h2>
+
+            <p>Entre em contato conosco e faça agora mesmo a sua encomenda!</p>
+            
+            <p>Não perca tempo e faça a sua encomenda hoje mesmo e surpreenda quem você <b>Ama!!!</b></p>
+
+         <form action="" method="post">
+             <div>
+                 <label for="nome">Nome:</label>
+                 <input type="text" name="nome" id="nome" required>
+             </div>
+
+             <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+             </div>
+      
+             <div>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" name="data" id="data" required> 
+             </div>
+
+             <div>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" required>  
+             </div>
+
+             <div>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" min="18" max="100">  
+             </div>
+
+
+             <div>
+                 <p>Sexo:</p>
+                 <input type="radio" name="sexo" id="masculino">
+                 <label for="masculino">Masculino</label>
+
+
+                 <input type="radio" name="sexo" id="feminino">
+                 <label for="feminino">Feminino</label>
+             </div>
+
+             <div>
+                 <p>Interesses:</p>
+
+                 <input type="checkbox" name="interesses" id="personalizado">
+                 <label for="personalizado">Presente Personalizado</label>
+
+                 <input type="checkbox" name="interesses" id="cesta">
+                 <label for="Cesta">Cesta de Presente</label>
+
+                 <input type="checkbox" name="interesses" id="caixa">
+                 <label for="caixa">Caixa MDF Personalizada</label>
+
+                 <input type="checkbox" name="interesses" id="bolos">
+                 <label for="bolos">Bolo Personalizado</label>
+
+                <input type="checkbox" name="interesses" id="ovos">
+                <label for="ovos">Ovos de Páscoa</label>
+
+                 <input type="checkbox" name="interesses" id="trufas">
+                 <label for="trufas">Trufas</label>
+
+                 <input type="checkbox" name="interesses" id="chocolate">
+                 <label for="chocolate">Chocolates Personalizados</label>
+
+             </div>
+
+             <div>
+                 <label for="assunto">Assunto:</label>
+                 <select name="" id="">
+                     <option></option>
+                     <option>Dúvidas</option>
+                     <option>Elogios</option>
+                     <option>Reclamações</option>
+                     <option>Outros</option>
+                 </select>
+             </div>
+
+             <div>
+                 <label for="mensagem">Mensagem</label> <br>
+                 <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea>
+             </div>
+
+             <button type="submit">Enviar dados</button>
+
+             <!-- Pode ser assim também: -->
+             <!-- <input type="button" value=""-->
+
+         </form>
+
+
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>ThalyChocolembranças é um site desenvolvido para venda de produtos personalizados para datas especiais ou para presentear quem vc ama!!!
+        <br>São Mateus - SP - 2022 </p>
+    </footer>
+
+</body>
+</html>
